@@ -4,6 +4,8 @@ using UnityEngine;
 
 
 public class CompleteAIPlayerController : MonoBehaviour {
+	public GameObject player;
+	private float maxDistance = 12.0f;
 	public float speed;
 	private Rigidbody2D rb2d;
 	private double xLimit = 10.0;
@@ -25,6 +27,16 @@ public class CompleteAIPlayerController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		var targetPosition = player.transform.position;
+		var distance = Vector2.Distance (transform.position, targetPosition);
+		if (distance < maxDistance) {
+			transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);			
+		} else {
+			randomMove ();
+		}
+	}
+
+	void randomMove(){
 		var amttomove = speed * Time.deltaTime;
 
 		direction = directions [directionIndex];
@@ -43,8 +55,7 @@ public class CompleteAIPlayerController : MonoBehaviour {
 				xTotal = 0;
 			}
 		}
-
-
+			
 		transform.Translate(this.direction * amttomove);
 	}
 
