@@ -1,0 +1,170 @@
+commit a1bfc5116646a6914df0528d9b1f6161b540b5ef
+Merge: dfc0c4b ae82807
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sun Apr 23 01:27:40 2017 -0400
+
+    Merge pull request #6 from Tristan-J/wsy
+    
+    Wsy
+
+commit ae82807473c8478e65ade9f984cd26601f52a8b2
+Merge: 761f4c7 d552621
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 01:22:29 2017 -0400
+
+    add master files
+
+commit d55262184257b0332cadf0584b5ee053ac890d30
+Merge: e3c9037 dfc0c4b
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 01:07:38 2017 -0400
+
+    Merge branch 'master' of https://github.com/Tristan-J/Grid-War
+
+commit e3c903749715880d864bb50dcf6a169598e4d33c
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 01:07:23 2017 -0400
+
+    remove Library
+
+commit 761f4c788dd07e4fb163b7174a24cb06cd314eb5
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 01:05:03 2017 -0400
+
+    delete files
+
+commit 9600fc847f1f48fd002660be30a6b3ad10a12b88
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 00:54:08 2017 -0400
+
+    delete conflict files
+
+commit 15ebb5f5b170a659b65e3a999e4c1cde72feadd3
+Author: tgw <arronbillwsy@163.com>
+Date:   Sun Apr 23 00:46:16 2017 -0400
+
+    add contens in assets
+
+commit dfc0c4b7fb0128d07929785a0b9b320f7283177d
+Author: Tristan-J <tristan.xiery@gmail.com>
+Date:   Sun Apr 23 00:33:32 2017 -0400
+
+    update map and bomb
+
+commit 9cabbee44d8407f37c64cf4848ab444a2096fc61
+Merge: 9372bb1 9d44e38
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sun Apr 23 00:32:06 2017 -0400
+
+    Merge pull request #5 from Tristan-J/xunjie_zhu
+    
+    Xunjie zhu
+
+commit 9d44e3810de355ec7597ed59be849fb1328e4c8c
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sun Apr 23 00:29:50 2017 -0400
+
+    remove rebundant file
+
+commit d2237c1791d50e28f47582eb36332bbc02c1b0f6
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sun Apr 23 00:29:04 2017 -0400
+
+    add chase methods
+
+commit 9372bb1b64aedf401631810fae404b3b84c01fc6
+Author: Tristan-J <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 23:39:20 2017 -0400
+
+    add bomb obj
+
+commit c81b1d79708aebc0ec1931b36f618262c43d6db4
+Merge: 4ef0a6d e06b4f1
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 23:30:35 2017 -0400
+
+    Merge pull request #4 from Tristan-J/xunjie_zhu
+    
+    save new scenes
+
+commit e06b4f1f82a3a896cfbf82d51904ae0381a81591
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 23:24:00 2017 -0400
+
+    save new scenes
+
+commit 4ef0a6d8b70bca73a2b5c6eceae056a539298b69
+Merge: 17e8ed2 2663bdd
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 23:20:55 2017 -0400
+
+    Merge pull request #3 from Tristan-J/xunjie_zhu
+    
+    Xunjie zhu
+
+commit 2663bdd1d1964681f530c7fe996b6fb503682c7d
+Merge: 37d13c8 17e8ed2
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 23:15:09 2017 -0400
+
+    add ai player and remove some file
+
+commit 37d13c8c0bfdb6d02dae586d1bdbf4b76ac2299b
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 22:53:40 2017 -0400
+
+    add AI player
+
+commit 17e8ed212a460fa7a5b78e94480c5a9126799ec8
+Author: Tristan-J <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 17:05:02 2017 -0400
+
+    remove cache files
+
+commit be60528e5141817e9aa47edf2efcd9ae7c00f302
+Merge: c6262dd e0e69c8
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 16:47:29 2017 -0400
+
+    Merge pull request #2 from Tristan-J/xunjie_zhu
+    
+     add new scene
+
+commit e0e69c8ce87636b3fca614f95fc2b67b7e253c71
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 16:46:12 2017 -0400
+
+     add new scene
+
+commit c6262dd52ff49616a5e742c9ee15cfa3308c4cc3
+Merge: 2cc460c 91580eb
+Author: tristan <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 16:35:30 2017 -0400
+
+    Merge pull request #1 from Tristan-J/xunjie_zhu
+    
+    Xunjie zhu
+
+commit 91580ebd43241d780e1739b9783f8ea90314e3e0
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 16:29:29 2017 -0400
+
+    steup project
+
+commit 52bd00e5f077d73cdc1449498ed18b9a5b293fb7
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 16:29:26 2017 -0400
+
+    steup project
+
+commit 3a98ae7bbbaf638cbb3128ba1d5e54f11a291e46
+Author: contemn1 <xunjiez614218@gmail.com>
+Date:   Sat Apr 22 16:28:47 2017 -0400
+
+    steup project
+
+commit 2cc460c226473c14654445f38d13720f502e7a98
+Author: Tristan-J <tristan.xiery@gmail.com>
+Date:   Sat Apr 22 12:17:27 2017 -0400
+
+    init the proj
