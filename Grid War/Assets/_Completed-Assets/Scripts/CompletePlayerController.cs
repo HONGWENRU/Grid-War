@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class CompletePlayerController : MonoBehaviour {
 
+    public float addition;
 	public float speed;				//Floating point variable to store the player's movement speed.
 	public Text countText;			//Store a reference to the UI Text component which will display the number of pickups collected.
 	public Text winText;			//Store a reference to the UI Text component which will display the 'You win' message.
@@ -21,7 +22,7 @@ public class CompletePlayerController : MonoBehaviour {
 
 		//Initialize count to zero.
 		count = 0;
-
+        addition = 0.1f;
 		//Initialze winText to a blank string since we haven't won yet at beginning.
 		winText.text = "";
 
@@ -40,9 +41,9 @@ public class CompletePlayerController : MonoBehaviour {
 
 		//Use the two store floats to create a new Vector2 variable movement.
 		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
-
-		//Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
-		rb2d.AddForce (movement * speed);
+        
+        //Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.
+        rb2d.AddForce (movement * speed);
 	}
 
 	//OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.
@@ -56,9 +57,10 @@ public class CompletePlayerController : MonoBehaviour {
 			
 			//Add one to the current value of our count variable.
 			count = count + 1;
-			
-			//Update the currently displayed count by calling the SetCountText function.
-			SetCountText ();
+            transform.localScale += new Vector3(addition, addition, 0);
+            speed += 10;
+            //Update the currently displayed count by calling the SetCountText function.
+            SetCountText ();
 		}
 		
 
